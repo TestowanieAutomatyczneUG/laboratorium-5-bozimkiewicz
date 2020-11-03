@@ -11,11 +11,7 @@ class HammingTest(unittest.TestCase):
             self.assertRaisesRegex
         except AttributeError:
             self.assertRaisesRegex = self.assertRaisesRegexp
-    @unittest.skip('Solution not added')
-    def assertRaisesWithMessage(self, exception):
-        return self.assertRaisesRegex(exception, r".+")
 
-    @unittest.skip('Solution not added')
     def test_empty_strands(self):
         self.assertEqual(self.temp.distance("", ""), 0)
 
@@ -54,6 +50,9 @@ class HammingTest(unittest.TestCase):
     def test_disallow_right_empty_strand(self):
         with self.assertRaisesWithMessage(ValueError):
             self.temp.distance("G", "")
+
+    def assertRaisesWithMessage(self, exception):
+        return self.assertRaisesRegex(exception, r".+")
 
 
 if __name__ == '__main__':
