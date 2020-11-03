@@ -31,7 +31,6 @@ class HammingTest(unittest.TestCase):
         with self.assertRaisesWithMessage(ValueError):
             self.temp.distance("AATG", "AAA")
 
-    @unittest.skip('Solution not added')
     def test_disallow_second_strand_longer(self):
         with self.assertRaisesWithMessage(ValueError):
             self.temp.distance("ATA", "AGTG")
