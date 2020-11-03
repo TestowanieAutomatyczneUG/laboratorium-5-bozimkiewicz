@@ -9,7 +9,6 @@ class Hamming:
         return counter
 
 
-
 hamming = Hamming()
 print(hamming.distance('', ''))
 print(hamming.distance('A', 'A'))
