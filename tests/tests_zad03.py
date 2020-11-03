@@ -14,7 +14,7 @@ class SongTest(unittest.TestCase):
         self.assertEqual(self.temp.section(1, 3), ['On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.', 'On the second day of Christmas my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.', 'On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.'])
 
     def test_print_whole_song(self):
-        self.assertEqual(self.temp.whole_song, ['On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.',
+        self.assertEqual(self.temp.whole_song(), ['On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.',
                      'On the second day of Christmas my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.',
                      'On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.',
                      'On the fourth day of Christmas my true love gave to me: four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.',

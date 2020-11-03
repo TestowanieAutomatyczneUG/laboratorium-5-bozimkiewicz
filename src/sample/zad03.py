@@ -24,5 +24,4 @@ class Song:
                      'On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.']
 
     def whole_song(self):
-        return []
-
+        return self.song
