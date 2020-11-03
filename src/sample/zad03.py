@@ -16,6 +16,8 @@ class Song:
     def one_line(self, num):
         if num == 1:
             return 'On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.'
+        if num == -1:
+            raise ValueError
 
     def section(self, start, end):
         if start == 1 and end == 3:
