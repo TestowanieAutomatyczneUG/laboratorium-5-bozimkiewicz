@@ -14,12 +14,10 @@ class Song:
                      'On the twelfth day of Christmas my true love gave to me: twelve Drummers Drumming, eleven Pipers Piping, ten Lords-a-Leaping, nine Ladies Dancing, eight Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.']
 
     def one_line(self, num):
-        if num == 1:
-            return 'On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.'
-        if num == -1:
+        if num > len(self.song) or num <= 0:
             raise ValueError
-        if num == 15:
-            raise ValueError
+        else:
+            return self.song[num - 1]
 
     def section(self, start, end):
         if start == 1 and end == 3:
