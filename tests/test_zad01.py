@@ -24,7 +24,6 @@ class HammingTest(unittest.TestCase):
     def test_long_identical_strands(self):
         self.assertEqual(self.temp.distance("GGACTGAAATCTG", "GGACTGAAATCTG"), 0)
 
-    @unittest.skip('Solution not added')
     def test_long_different_strands(self):
         self.assertEqual(self.temp.distance("GGACGGATTCTG", "AGGACGGATTCT"), 9)
 
