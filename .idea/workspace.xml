@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd40c745-5033-423d-afe3-1ffaa027cf96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/sample/zad03.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/zad03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_zad03.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_zad03.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

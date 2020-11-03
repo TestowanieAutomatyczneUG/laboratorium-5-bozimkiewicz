@@ -18,6 +18,8 @@ class Song:
             return 'On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.'
         if num == -1:
             raise ValueError
+        if num == 15:
+            raise ValueError
 
     def section(self, start, end):
         if start == 1 and end == 3:
