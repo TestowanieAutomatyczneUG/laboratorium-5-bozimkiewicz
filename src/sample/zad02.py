@@ -1,40 +1,12 @@
 class Roman:
     def roman(self, number):
-        if number == 1:
-            return 'I'
-        if number == 2:
-            return 'II'
-        if number == 3:
-            return 'III'
-        if number == 4:
-            return 'IV'
-        if number == 5:
-            return 'V'
-        if number == 6:
-            return 'VI'
-        if number == 9:
-            return 'IX'
-        if number == 27:
-            return 'XXVII'
-        if number == 48:
-            return 'XLVIII'
-        if number == 49:
-            return 'XLIX'
-        if number == 59:
-            return 'LIX'
-        if number == 93:
-            return 'XCIII'
-        if number == 141:
-            return 'CXLI'
-        if number == 163:
-            return 'CLXIII'
-        if number == 402:
-            return 'CDII'
-        if number == 575:
-            return 'DLXXV'
-        if number == 911:
-            return 'CMXI'
-        if number == 1024:
-            return 'MXXIV'
-        if number == 3000:
-            return 'MMM'
+        letters = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
+        numbers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+        roman_number = ''
+        i = 0
+        while number > 0:
+            for _ in range(number // numbers[i]):
+                roman_number += letters[i]
+                number -= numbers[i]
+            i += 1
+        return roman_number
