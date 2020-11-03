@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dd40c745-5033-423d-afe3-1ffaa027cf96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_zad01.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_zad01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_zad02.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_zad02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/zad03.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/zad03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_zad03.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_zad03.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zad03">
+  <component name="RunManager" selected="Python tests.Unittests in tests_zad03.py">
     <configuration name="zad01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab05" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,8 +131,23 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in tests_zad03.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="lab05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/tests_zad03.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in tests_zad03.py" />
         <item itemvalue="Python.zad03" />
         <item itemvalue="Python tests.Unittests in tests_zad02.py" />
         <item itemvalue="Python.zad02" />
