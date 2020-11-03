@@ -9,7 +9,13 @@ class Hamming:
         if len(first) == len(second) and first == second:
             return 0
         if len(first) == len(second) and first != second:
-            return 9
+            counter = 0
+            for i in range(0, len(first)):
+                if first[i] != second[i]:
+                    counter += 1
+            return counter
+        if len(first) > len(second):
+            raise ValueError('First can\'t be longer than first')
 
 
 hamming = Hamming()
