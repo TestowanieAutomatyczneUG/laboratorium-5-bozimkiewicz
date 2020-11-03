@@ -18,6 +18,8 @@ class Hamming:
             raise ValueError('First can\'t be longer than second')
         if len(first) < len(second):
             raise ValueError('Second can\'t be longer than first')
+        if len(first) == 0 and len(second) > 0:
+            raise ValueError('First can\'t be empty')
 
 
 hamming = Hamming()
@@ -28,3 +30,4 @@ print(hamming.distance("GGACTGAAATCTG", "GGACTGAAATCTG"))
 print(hamming.distance("GGACGGATTCTG", "AGGACGGATTCT"))
 # print(hamming.distance("AATG", "AAA"))
 # print(hamming.distance("ATA", "AGTG"))
+# print(hamming.distance("", "G"))

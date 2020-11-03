@@ -36,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_zad01.py">
+  <component name="RunManager" selected="Python.zad01">
     <configuration name="zad01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab05" />
       <option name="INTERPRETER_OPTIONS" value="" />
