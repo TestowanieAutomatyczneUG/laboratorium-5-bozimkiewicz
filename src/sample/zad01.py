@@ -15,7 +15,9 @@ class Hamming:
                     counter += 1
             return counter
         if len(first) > len(second):
-            raise ValueError('First can\'t be longer than first')
+            raise ValueError('First can\'t be longer than second')
+        if len(first) < len(second):
+            raise ValueError('Second can\'t be longer than first')
 
 
 hamming = Hamming()
@@ -24,3 +26,5 @@ print(hamming.distance('A', 'A'))
 print(hamming.distance('G', 'T'))
 print(hamming.distance("GGACTGAAATCTG", "GGACTGAAATCTG"))
 print(hamming.distance("GGACGGATTCTG", "AGGACGGATTCT"))
+# print(hamming.distance("AATG", "AAA"))
+# print(hamming.distance("ATA", "AGTG"))
