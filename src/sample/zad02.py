@@ -6,4 +6,6 @@ class Roman:
             return 'II'
         if number == 3:
             return 'III'
+        if number == 4:
+            return 'IV'
 
