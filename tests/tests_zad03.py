@@ -7,7 +7,6 @@ class SongTest(unittest.TestCase):
     def setUp(self):
         self.temp = Song()
 
-    @unittest.skip('Solution not added')
     def test_print_one_line(self):
         self.assertEqual(self.temp.one_line(1), 'On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.')
 
