@@ -10,7 +10,6 @@ class RomanNumeralsTest(unittest.TestCase):
     def test_1_is_a_single_i(self):
         self.assertEqual(self.temp.roman(1), "I")
 
-    @unittest.skip("Solution not added")
     def test_2_is_two_i_s(self):
         self.assertEqual(self.temp.roman(2), "II")
 

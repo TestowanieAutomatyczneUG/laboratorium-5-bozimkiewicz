@@ -4,5 +4,3 @@ class Roman:
             return 'I'
 
 
-roman = Roman()
-print(roman.roman(1))
