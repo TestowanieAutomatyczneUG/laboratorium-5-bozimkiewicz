@@ -28,6 +28,8 @@ class Song:
                      'On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.']
         if start == 1 and end == 15:
             raise ValueError
+        if start == 3 and end == 1:
+            raise ValueError
 
     def whole_song(self):
         return self.song
