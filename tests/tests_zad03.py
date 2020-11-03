@@ -31,7 +31,6 @@ class SongTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.temp.one_line(-1)
 
-    @unittest.skip('Solution not added')
     def test_disallow_bigger_number_of_verse(self):
         with self.assertRaises(ValueError):
             self.temp.one_line(15)
