@@ -39,7 +39,6 @@ class SongTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.temp.section(1, 15)
 
-    @unittest.skip('Solution not added')
     def test_disallow_first_verse_bigger_than_second(self):
         with self.assertRaises(ValueError):
             self.temp.section(3, 1)
