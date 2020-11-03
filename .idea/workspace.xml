@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd40c745-5033-423d-afe3-1ffaa027cf96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/zad01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/zad01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_zad01.py">
+  <component name="RunManager" selected="Python.zad01">
     <configuration name="zad01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab05" />
       <option name="INTERPRETER_OPTIONS" value="" />
