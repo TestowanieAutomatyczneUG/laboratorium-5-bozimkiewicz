@@ -1,2 +1,2 @@
 ﻿# laboratorium-5-bozimkiewicz
- # ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/TestowanieAutomatyczneUG/laboratorium-5-bozimkiewicz/Python%20package?color=brightgreen&label=build&style=plastic)
+ # ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/TestowanieAutomatyczneUG/laboratorium-5-bozimkiewicz/Python%20package?style=plastic)
