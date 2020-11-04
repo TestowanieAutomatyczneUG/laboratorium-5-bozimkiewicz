@@ -36,7 +36,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Unittest tests
       run: |
-         cd tests
+         cd src
          python -m unittest test_zad01.py
          python -m unittest tests_zad02.py
          python -m unittest tests_zad03.py
